@@ -1,0 +1,46 @@
+/* parte de index*/
+
+.TamLetra
+{
+    font-size: large;
+}
+
+.TamIconos
+{
+    font-size: 2em;
+}
+
+/* parte de tienda*/
+
+.CategoriaTienda
+{
+    overflow-y:scroll; 
+    height: 600px;
+}
+
+/* parte de contacto*/
+
+.TamLetraContacto
+{
+    font-size: 2.5em;
+}
+
+.colorIconos
+{
+    color: maroon;
+}
+
+.colorInfo
+{
+    color: darkcyan;
+}
+
+/* parte de perfil*/
+
+.datosPerfil
+{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: maroon;
+}
+
