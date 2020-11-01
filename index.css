@@ -10,7 +10,7 @@
     font-size: 2em;
 }
 
-/* Small devices (landscape phones, 576px and up)*/
+/* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) 
 {
     .MuestraCarrus
@@ -18,8 +18,8 @@
         visibility: visible;
     }
 }
-
-/* Medium devices (tablets, 768px and up)*/
+*/
+/* Medium devices (tablets, 768px and up)
 @media (max-width: 768px) 
 {
     .MuestraCarrus
@@ -27,7 +27,7 @@
         visibility: hidden;
     }
 }
-
+*/
 /* parte de tienda*/
 
 .CategoriaTienda

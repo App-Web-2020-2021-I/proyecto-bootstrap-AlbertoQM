@@ -13,16 +13,29 @@
     
     <div class="container-fluid">
 
-        <div class="row bg-dark text-white mb-0">
-            <a class="col-1 badge badge-dark p-4 TamLetra" href="index.html">AZU</a>
-            <a class="col-3 badge badge-dark p-4 TamLetra" href="tienda.html">TIENDA</a>
-            <a class="col-3 badge badge-dark p-3 TamIconos" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
-            <div class="col row">
-                <button class="col-6 btn btn-dark border-right" data-toggle="modal" data-target="#modalIniSesion"><span>INICIAR SESIÓN</span></button>
-                
-                <button class="col-6 btn btn-dark" data-toggle="modal" data-target="#modalRegistro"><span>REGISTRARSE</span></button>
-            </div>
-        </div>
+        <nav class="row navbar navbar-expand-md navbar-dark bg-dark"> 
+            
+            <!--  <div class="row bg-dark text-white mb-0"> -->
+                <button class="navbar-toggler" type="button" data-togle="collapse" data-target="#OcultaNav">
+                      <i class="fas fa-bars"></i>                
+                  </button>
+                  
+                  <a class="col col-md-1 badge badge-dark p-4 TamLetra" href="index.html">AZU</a>
+                  <div class="collapse navbar-collapse" id="OcultaNav">
+                      
+                      <a class="col-12 col-md-3 badge badge-dark p-4 TamLetra" href="tienda.html">TIENDA</a>
+                      <a class="col-md-3 badge badge-dark p-3 TamIconos" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
+                      <div class="col row">
+                          <button class="col-6 btn btn-dark border-right" data-toggle="modal" data-target="#modalIniSesion"><span>INICIAR SESIÓN</span></button>
+                          
+                          <button class="col-6 btn btn-dark" data-toggle="modal" data-target="#modalRegistro"><span>REGISTRARSE</span></button>
+                      </div>
+      
+                  </div>
+                      
+             <!-- </div> -->
+      
+              </nav> 
 
         <div class="row">
 
@@ -101,16 +114,33 @@
 
         </div>
 
-        <footer class="row bg-dark text-white">
+        <footer class="row bg-dark text-white d-none d-md-block">
             <a class="col-3 badge badge-dark p-4 TamLetra" href="contacto.html">CONTACTO</a>
-            <a class="col-3 badge badge-dark p-4 TamLetra" href="nosotros.html">ACERCA DE NOSOTROS</a>
-            <div class="col row">
-                <a class="col-4 badge badge-dark mt-1 TamIconos" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="col-4 badge badge-dark mt-1 TamIconos" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="col-4 badge badge-dark mt-1 TamIconos" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="col-3 badge badge-dark p-4 TamLetra" href="nosotros.html">NOSOTROS</a>
+            <div class="row col-6 d-inline-block">
+                <a class="col-3 badge badge-dark TamIconos" href="perfil.html"><i class="fab fa-facebook-f"></i></a>
+                <a class="col-3 badge badge-dark TamIconos" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="col-3 badge badge-dark TamIconos" href="#"><i class="fab fa-twitter"></i></a>
 
             </div>
         </footer>
+
+        <div class="bg-dark row text-white d-md-none text-center">
+            <div class="col-4">
+                <button class="btn btn-dark TamIconos">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-dark TamIconos">
+                    <i class="fab fa-instagram"></i>
+                </button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-dark TamIconos">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </div>
 
     </div>
 
